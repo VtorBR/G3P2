@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEditor;
 using System;
 
-namespace G3P2
+namespace G3P2.Transform
 {
     public static class Collider2DToMesh
     {
@@ -33,7 +33,7 @@ namespace G3P2
 
         private static void CreatePrimitive(string name, PrimitiveType primitive, TransformData transformData)
         {
-            Transform transform = GameObject.CreatePrimitive(primitive).transform;
+            UnityEngine.Transform transform = GameObject.CreatePrimitive(primitive).transform;
             transform.name = name;
             transform.localPosition = transformData.Position;
             transform.localRotation = transformData.Rotation;
