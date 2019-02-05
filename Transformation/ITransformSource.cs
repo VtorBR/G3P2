@@ -2,6 +2,6 @@
 {
     public interface ITransformSource
     {
-        void Subscribe(out ITransformer subscriber);
+        void Register(out ITransformer subscriber);
     }
 }

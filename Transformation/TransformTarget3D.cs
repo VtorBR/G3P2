@@ -1,18 +1,7 @@
-﻿using UnityEngine;
-
-namespace G3P2.Transformation
+﻿namespace G3P2.Transformation
 {
-    public sealed class TransformTarget3D : MonoBehaviour
+    public sealed class TransformTarget3D : TransformTarget
     {
-        [SerializeField]
-        private TransformSource _transformSource;
-        private ITransformer _transformer;
-
-        private void Start()
-        {
-            _transformSource.Subscribe(out _transformer);
-        }
-
         private void LateUpdate()
         {
             TransformData data = _transformer.Transform3D;
