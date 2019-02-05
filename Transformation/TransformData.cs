@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace G3P2.Transform
+namespace G3P2.Transformation
 {
     [Serializable]
     public struct TransformData
@@ -10,7 +10,7 @@ namespace G3P2.Transform
         public Vector3 Position;
         public Vector3 Scale;
 
-        public TransformData(UnityEngine.Transform transform)
+        public TransformData(Transform transform)
         {
             Rotation = transform.localRotation;
             Position = transform.localPosition;

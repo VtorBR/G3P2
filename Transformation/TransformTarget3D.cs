@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace G3P2.Transform
+namespace G3P2.Transformation
 {
     public sealed class TransformTarget3D : MonoBehaviour
     {

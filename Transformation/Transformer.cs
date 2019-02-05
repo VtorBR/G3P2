@@ -1,4 +1,4 @@
-﻿namespace G3P2.Transform
+﻿namespace G3P2.Transformation
 {
     public sealed class Transformer : ITransformer
     {
