@@ -1,4 +1,4 @@
-﻿namespace G3P2
+﻿namespace G3P2.Transform
 {
     public sealed class TransformSource2D : TransformSource
     {

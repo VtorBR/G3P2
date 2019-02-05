@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace G3P2
+namespace G3P2.Transform
 {
     public abstract class TransformSource : MonoBehaviour, ITransformSource
     {
